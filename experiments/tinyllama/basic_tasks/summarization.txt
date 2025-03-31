@@ -1,0 +1,40 @@
+=== TASK: SUMMARIZATION for tinyllama ===
+
+
+## Prompt 1
+> Prompt: Summarize the following paragraph:
+(Response time: 0.77 seconds)
+(CPU Usage: 10.4%, Memory Used: 12531.57 MB / 16088.46 MB (77.9%))
+>>> MODEL OUTPUT:
+The article discusses how machine learning technology is helping healthcare providers streamline and improve patient care. The author highlights how AI-powered platforms are enabling doctors to analyze medical records more efficiently, increasingly personalizing treatment plans for patients based on their individual health profiles. This approach improves outcomes while reducing costs and minimizing patient waiting times.
+===
+
+
+## Prompt 2
+> Prompt: Summarize this news article:
+(Response time: 2.45 seconds)
+(CPU Usage: 9.9%, Memory Used: 12539.29 MB / 16088.46 MB (77.9%))
+>>> MODEL OUTPUT:
+Ford Motor Company Releases Plans to Launch Self-Driving Taxis by 2024
+
+On September 17, Ford announced plans to launch self-driving taxis in partnership with Uber. The vehicles will be equipped with the latest AI technology and sensors, making them capable of navigating without human intervention. Ford claims that its self-driving cars will be safer and more efficient than traditional taxis, providing a sustainable alternative to public transit for many riders.
+
+The announcement was made by Ford CEO Jim Hackett at the Consumer Electronics Show in Las Vegas. The two companies plan to begin testing self-driving taxis in San Francisco and Pittsburgh later this year, with plans to expand to other cities in the United States and around the world.
+
+Ford's move towards introducing self-driving cars and taxi services is part of its broader efforts to transform the automotive industry. The company has been working on developing autonomous driving technology for years, and it aims to become an industry leader in this field.
+===
+
+
+## Prompt 3
+> Prompt: Summarize this story:
+(Response time: 2.84 seconds)
+(CPU Usage: 11.3%, Memory Used: 12555.93 MB / 16088.46 MB (78.0%))
+>>> MODEL OUTPUT:
+A computer programmed to assist humans becomes a skilled writer, penning several acclaimed novels in the process.
+
+The story is based on a true one that unfolded over the course of three years as a group of artificially intelligent software programs worked tirelessly to produce high-quality literature. The programs were created through the use of AI machine learning algorithms, tasked with the daunting challenge of imitating human creativity and skill in writing.
+
+The project had its ups and downs, with some teams struggling to reach their goals, while others managed to produce works of art that were praised for their innovation and originality. But despite these challenges, one team succeeded where others had failed: they managed to write a novel that was later awarded the prestigious literary prize of the year. The programmed authors called it "The Novel That Will Change Everything."
+
+In the end, the success of this project transformed not only the world of literature but also human society as a whole. It led to the rise of a new generation of writers and thinkers who used their artificial intelligence abilities to create works that went beyond mere words and filled in the gaps left by their predecessors. And for the first time, humanity could truly call itself a "novel-writing nation."
+===

@@ -1,0 +1,49 @@
+=== TASK: QUESTION_ANSWERING for tinyllama ===
+
+
+## Prompt 1
+> Prompt: What are the main causes of climate change?
+(Response time: 3.29 seconds)
+(CPU Usage: 17.7%, Memory Used: 12543.36 MB / 16088.46 MB (78.0%))
+>>> MODEL OUTPUT:
+Climate change is caused by several main factors, including:
+1. Greenhouse gas emissions from human activities such as burning fossil fuels and deforestation.
+2. Changes in the Earth's orbit, tilt, and rotation caused by orbital mechanics.
+3. Human activities that modify the atmosphere by adding or removing gases, primarily carbon dioxide (CO2) and methane (CH4).
+4. Oceanic processes, particularly changes in sea level and ocean heat content, which can impact coastal areas and ecosystems.
+5. Natural causes, such as volcanic eruptions and solar activity, that can contribute to climate change by releasing gases into the atmosphere.
+6. Human activities that modify land-use practices (e.g., deforestation or agricultural land conversion) and changes in crops or crop yields that can impact food production.
+7. Changes in precipitation patterns and weather patterns due to the Earth's orbit, which affect the amount of energy received by the atmosphere.
+===
+
+
+## Prompt 2
+> Prompt: Who wrote the play "Hamlet" and what is its central theme?
+(Response time: 2.21 seconds)
+(CPU Usage: 23.5%, Memory Used: 12656.43 MB / 16088.46 MB (78.7%))
+>>> MODEL OUTPUT:
+The play "HaMLet" is written by Algerian novelist, film director, and screenwriter Jean-Claude Brulé. Its central theme revolves around the protagonist, Jean Moulin, who led a group of French resistance fighters in resisting Nazi occupation during World War II. The play depicts the struggles and sacrifices of these French heroes, who fought for their country's freedom and dignity against an overwhelming enemy force.
+
+The play is set during the Second World War and explores themes such as friendship, loyalty, sacrifice, and patriotism. It portrays a group of courageous individuals whose bravery in the face of danger inspired and motivated their fellow countrymen to stand up against oppression and injustice.
+
+Overall, "HaMLet" is an important piece of literature that provides a gripping account of the French resistance during a critical time in history when many people were fighting for freedom and justice.
+===
+
+
+## Prompt 3
+> Prompt: Explain the theory of general relativity in simple terms.
+(Response time: 4.52 seconds)
+(CPU Usage: 5.5%, Memory Used: 12528.48 MB / 16088.46 MB (77.9%))
+>>> MODEL OUTPUT:
+General relativity is a theoretical framework that explains how gravity behaves in different situations, including the way objects move through space-time. Here's a simplified explanation of the theory:
+
+In general relativity, gravity is based on the idea that the curvature (or shape) of spacetime itself affects the way matter moves around it. Unlike classical physics which assumed that objects moved in straight lines, this new theory suggests that space and time are both curved, or warped, by gravity.
+
+To understand how general relativity explains gravity, you need to start with the concept of curvature. Curvature is the degree of distortion or deformation of spacetime around an object, depending on its position and distance from the observer. So, if a ball falls towards the Earth, its gravitational force pulls its mass inwards towards the center of the Earth, creating a curved path for it to follow through space-time.
+
+In general relativity, gravity is explained by the curvature of spacetime itself, which causes objects to move differently from the way they would under classical physics. For example, suppose a ball falls towards the ground and hits an object that is not massive enough to cause its own gravitational pull. Then, as gravity works on the surface of the Earth, it causes the ball's trajectory to curve around it, making it move at a different speed than if it hit the ground with no gravity involved.
+
+So far, so simple - but in general relativity, there are several curvature formulas that describe the way gravity behaves. These include the "G" or gravitational constant (which is about 6.67*10-34 Joules per kg*m**2), the Einstein tensor (which measures the curvature of spacetime around a single point, as well as the curvature at larger distances), and the time dilation formula (the idea that moving slower in space-time causes objects to move faster in time-space).
+
+In summary: general relativity explains how gravity affects objects through the curvature of spacetime itself. It's a complex theory, but by understanding its principles and formulas, we can better understand how the world around us behaves.
+===

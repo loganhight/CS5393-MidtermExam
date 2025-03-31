@@ -1,0 +1,48 @@
+=== TASK: QUESTION_ANSWERING for mistral ===
+
+
+## Prompt 1
+> Prompt: What are the main causes of climate change?
+(Response time: 67.35 seconds)
+(CPU Usage: 13.7%, Memory Used: 13785.11 MB / 16088.46 MB (85.7%))
+>>> MODEL OUTPUT:
+1. Fossil Fuel Consumption: Burning fossil fuels such as coal, oil, and gas for electricity, heat, and transportation is the largest source of global greenhouse gas emissions. These activities release carbon dioxide (CO2) and other greenhouse gases into the atmosphere.
+
+2. Deforestation: Trees absorb CO2, but when forests are cut down or destroyed, that storage capacity is lost, allowing more CO2 to accumulate in the atmosphere. Additionally, deforestation can lead to increased emissions from the decomposition of trees and soil erosion.
+
+3. Industrial Processes: Many industrial processes, particularly those involving cement manufacturing, mining, and steel production, release significant amounts of greenhouse gases into the atmosphere.
+
+4. Agriculture: Agricultural activities such as livestock farming and rice cultivation contribute to climate change in several ways. These include methane emissions from livestock and rice fields, nitrous oxide emissions from fertilized soil, and deforestation for agricultural expansion.
+
+5. Waste Management: Decomposition of organic waste in landfills can produce methane, a potent greenhouse gas. Improper waste management practices can also lead to litter, which can prevent natural carbon sinks (like forests) from functioning effectively.
+
+6. Energy Use in Residential and Commercial Buildings: In many countries, buildings are a significant source of energy consumption and associated emissions. This is due to the use of fossil fuels for heating, cooling, and lighting, as well as appliances and electronics.
+
+7. Transportation: The burning of fuel for cars, trucks, airplanes, and ships releases CO2 and other greenhouse gases into the atmosphere. The transportation sector is one of the fastest-growing sources of global emissions.
+===
+
+
+## Prompt 2
+> Prompt: Who wrote the play "Hamlet" and what is its central theme?
+(Response time: 10.79 seconds)
+(CPU Usage: 18.1%, Memory Used: 13781.53 MB / 16088.46 MB (85.7%))
+>>> MODEL OUTPUT:
+The play "Hamlet" was written by William Shakespeare. Its central theme can be seen as the struggle between morality and revenge, with Hamlet himself wrestling with the decision to avenge his father's death while also trying to maintain his own sanity and honor. It delves into themes of betrayal, guilt, madness, and mortality.
+===
+
+
+## Prompt 3
+> Prompt: Explain the theory of general relativity in simple terms.
+(Response time: 49.46 seconds)
+(CPU Usage: 17.3%, Memory Used: 14187.1 MB / 16088.46 MB (88.2%))
+>>> MODEL OUTPUT:
+General Relativity is a theory of gravity that was developed by Albert Einstein between 1907 and 1915. It describes gravity not as a force, but as a result of the curvature of space-time caused by mass and energy.
+
+Here's a simpler explanation: Imagine a rubber sheet lying flat. Now place a heavy ball in the middle. The sheet will bend under the weight of the ball, creating a dip. If you roll a smaller ball near the heavier one, it will move towards the dip, not because the heavier ball is pulling it, but because the space around the heavier ball has been deformed by its mass.
+
+In General Relativity, this rubber sheet represents the fabric of space-time, and planets (and other objects with mass) create dips or curves in this fabric. Objects moving near these massive objects will follow the curvature of space-time, giving the appearance that they are being pulled by gravity.
+
+One of the most famous predictions of General Relativity is the bending of light by gravity, which was confirmed during a solar eclipse in 1919. Another is the existence of black holes, regions of space where gravity is so strong that nothing can escape from it, not even light.
+
+General Relativity has been extremely successful in explaining various astronomical phenomena and has withstood many experimental tests. It forms the basis for our understanding of the universe on large scales, such as the expansion of the universe and the big bang theory.
+===

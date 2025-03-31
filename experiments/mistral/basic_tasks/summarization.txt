@@ -1,0 +1,36 @@
+=== TASK: SUMMARIZATION for mistral ===
+
+
+## Prompt 1
+> Prompt: Summarize the following paragraph:
+(Response time: 18.71 seconds)
+(CPU Usage: 44.1%, Memory Used: 14858.95 MB / 16088.46 MB (92.4%))
+>>> MODEL OUTPUT:
+The paragraph discusses a study that found eating more plant-based foods could help slow down aging and reduce the risk of diseases such as diabetes, heart disease, and some cancers. The study suggests that a diet rich in fruits, vegetables, legumes, and whole grains promotes healthy aging by reducing inflammation in the body, improving gut health, and supporting the immune system. It also mentions a potential link between the Mediterranean diet, which is high in these foods, and longevity. The study emphasizes that a balanced diet should include a variety of plant-based foods to reap the full benefits.
+===
+
+
+## Prompt 2
+> Prompt: Summarize this news article:
+(Response time: 36.9 seconds)
+(CPU Usage: 49.4%, Memory Used: 15409.58 MB / 16088.46 MB (95.8%))
+>>> MODEL OUTPUT:
+Title: "Apple's Q1 2023 Results: Revenue and Profit Beat Expectations"
+
+Summary: In a recent financial report, tech giant Apple announced its quarterly earnings for Q1 of 2023. The company reported a revenue of $118.7 billion, which is a 6% increase compared to the same quarter last year, exceeding analysts' expectations of $114.5 billion. Apple's profit also surpassed predictions, with a net income of $30.2 billion, up from $28.9 billion in Q1 2022. This growth was fueled by strong iPhone sales, which accounted for about half of Apple's total revenue. The company's services segment, including offerings like the App Store and iCloud, also saw an increase in revenue. The positive earnings report signals a resilient performance from Apple amidst economic uncertainty.
+===
+
+
+## Prompt 3
+> Prompt: Summarize this story:
+(Response time: 30.51 seconds)
+(CPU Usage: 8.6%, Memory Used: 15556.52 MB / 16088.46 MB (96.7%))
+>>> MODEL OUTPUT:
+Title: The Starfish Thrower
+
+In a small coastal town, an old man named Oscar spent his days walking along the beach, throwing starfish that had been washed ashore back into the ocean. A young girl approached him and asked why he bothered, as the tide would just wash them up again. Oscar explained that if he didn't help, they would die before the next high tide.
+
+The girl, skeptical of making a difference, pointed out that there were hundreds of starfish along the beach and only one man. Oscar picked up another starfish, tossed it gently into the ocean, and said, "I made a difference for that one." The girl decided to help him, and together they worked their way along the shoreline, rescuing starfish.
+
+The story serves as an analogy of making a positive impact in the world, no matter how small or seemingly insignificant one's actions may seem. It emphasizes that each person has the power to make a difference and encourages empathy and compassion for all living beings.
+===

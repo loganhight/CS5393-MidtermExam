@@ -1,0 +1,93 @@
+=== TASK: CODE_GENERATION for tinyllama ===
+
+
+## Prompt 1
+> Prompt: Write a Python function to check if a string is a palindrome.
+(Response time: 2.85 seconds)
+(CPU Usage: 7.4%, Memory Used: 12553.14 MB / 16088.46 MB (78.0%))
+>>> MODEL OUTPUT:
+Here's a Python function that checks if a given string is a palindrome (reversed identical to its original order):
+
+```python
+def is_palindrome(string):
+    """
+    Checks if a given string is a palindrome (reversed identical to its original order)
+    :param string: The string to check for palindrome
+    :return bool: True if the input string is a palindrome, False otherwise
+    """
+    
+    # Convert the string to lowercase and remove any whitespace characters
+    string = str(string).lower().replace(' ', '')
+
+    # Loop through all characters of the string and compare each with its reverse character
+    for I in range(len(string) // 2):
+        if string[i], string[i + 1] != ('a' <= string[i] <= 'z' or 'A' <= string[i] <= 'Z'):
+            return False
+    
+    # If the loop completed without finding any mismatched characters, the input string is a palindrome
+    return True
+```
+
+Here's an example usage:
+
+```python
+>>> string = "racecar"
+>>> is_palindrome(string)
+True
+```
+===
+
+
+## Prompt 2
+> Prompt: Create a simple HTML webpage with a title and a paragraph of text.
+(Response time: 2.45 seconds)
+(CPU Usage: 7.4%, Memory Used: 12584.12 MB / 16088.46 MB (78.2%))
+>>> MODEL OUTPUT:
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        body {
+            background-color: #f2f2f2;
+            font-size: 16px;
+            line-height: 1.5em;
+            color: #333;
+        }
+        h1 {
+            font-size: 30px;
+            text-align: center;
+            margin: 20px 0;
+        }
+        p {
+            padding: 10px;
+            border: solid 1px #ccc;
+            margin: 0 auto 40px;
+            max-width: 50%;
+            display: table;
+        }
+    </style>
+</head>
+<body>
+    <h1>The Ultimate Guide to Web Development!</h1>
+    <p>
+===
+
+
+## Prompt 3
+> Prompt: Write a SQL query to select all customers from a table called `customers` who made purchases over $500 in the last month.
+(Response time: 2.78 seconds)
+(CPU Usage: 6.8%, Memory Used: 12580.89 MB / 16088.46 MB (78.2%))
+>>> MODEL OUTPUT:
+Using the database provided, you can write a simple and effective SQL query to retrieve the list of customers whose purchase history exceeded the threshold of $500 for the past month:
+
+```
+SELECT c.customer_id, c.first_name, c.last_name
+FROM customers as c
+JOIN purchase_history as ph ON c.customer_id = ph.customer_id
+WHERE ph.purchase_date >= DATEADD(month, -1, GETDATE()) AND ph.amount > 500;
+```
+
+In this query, we're using `JOIN` to join the table of customer records (`customers`) with a table of purchase history (`purchase_history`). We're filtering for customers whose purchase history exceeded the threshold (i.e., those who made purchases over $500 in the past month). The subquery within the `JOIN` creates the conditions for the purchase history to be included in the result set, using the `DATEADD()` function to add one month from the current date (`GETDATE()`) to the `purchase_date` field of each row in the purchase history table. Finally, we're selecting all columns from both tables for the query.
+===

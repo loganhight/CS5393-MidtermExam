@@ -1,0 +1,53 @@
+=== TASK: QUESTION_ANSWERING for llama2 ===
+
+
+## Prompt 1
+> Prompt: What are the main causes of climate change?
+(Response time: 213.17 seconds)
+(CPU Usage: 6.8%, Memory Used: 11823.36 MB / 16088.46 MB (73.5%))
+>>> MODEL OUTPUT:
+Climate change is a complex and multifaceted issue, and there are several factors that contribute to it. Here are some of the main causes of climate change:
+
+1. Greenhouse gas emissions: The burning of fossil fuels such as coal, oil, and gas releases greenhouse gases like carbon dioxide and methane into the atmosphere. These gases trap heat and cause the Earth's temperature to rise, leading to climate change.
+2. Deforestation: Trees absorb carbon dioxide during photosynthesis, so when forests are cut down or burned, the amount of carbon dioxide in the atmosphere increases.
+3. Land use changes: Changes in land use, such as converting forests to agricultural land or urban areas, can lead to increased greenhouse gas emissions and reduced carbon sequestration.
+4. Methane emissions: Methane is a potent greenhouse gas that is released through human activities such as livestock farming, natural gas production and transportation, and the decomposition of organic waste in landfills.
+5. Nitrous oxide emissions: Nitrous oxide is another greenhouse gas that is released through human activities such as agriculture, industrial processes, and the burning of fossil fuels.
+6. Ozone layer depletion: The release of chlorofluorocarbons (CFCs) and other ozone-depleting substances has led to the depletion of the ozone layer, which can lead to increased exposure to harmful ultraviolet radiation and climate change.
+7. Population growth and consumption patterns: As the global population grows, so does the demand for resources and energy, leading to increased greenhouse gas emissions and other environmental impacts.
+8. Transportation: The burning of fossil fuels for transportation, such as in cars, trucks, and airplanes, is a significant contributor to greenhouse gas emissions.
+9. Industrial processes: Industrial processes, such as cement production and the manufacturing of chemicals, can release large amounts of greenhouse gases into the atmosphere.
+10. Agriculture: Agricultural practices, such as the use of synthetic fertilizers and plowing, can lead to increased greenhouse gas emissions and soil degradation.
+
+It's important to note that these causes are interconnected and can have a compounding effect on climate change. Addressing climate change will require a comprehensive approach that takes into account these various factors and their interactions.
+===
+
+
+## Prompt 2
+> Prompt: Who wrote the play "Hamlet" and what is its central theme?
+(Response time: 37.12 seconds)
+(CPU Usage: 7.4%, Memory Used: 11630.06 MB / 16088.46 MB (72.3%))
+>>> MODEL OUTPUT:
+The play "Hamlet" was written by William Shakespeare, and its central theme is the exploration of human nature and the complexities of human emotions. Specifically, the play delves into themes of revenge, betrayal, ambition, and mortality, all set against a backdrop of political intrigue and royal power struggles.
+
+The story follows the title character, Hamlet, a prince who is driven by his father's murder to seek revenge against his uncle, Claudius, who has taken the throne and married Hamlet's mother. As Hamlet navigates this complex web of family relationships and political maneuverings, he grapples with the nature of morality, the corrupting influence of power, and the fragility of human existence.
+
+Throughout the play, Shakespeare explores these themes through the use of dramatic irony, soliloquies, and a richly detailed setting that reflects the political and social upheavals of Elizabethan England. The result is a work of unparalleled complexity and depth, which continues to resonate with audiences today.
+===
+
+
+## Prompt 3
+> Prompt: Explain the theory of general relativity in simple terms.
+(Response time: 43.04 seconds)
+(CPU Usage: 8.8%, Memory Used: 11726.73 MB / 16088.46 MB (72.9%))
+>>> MODEL OUTPUT:
+The theory of general relativity, proposed by Albert Einstein in 1915, is a fundamental concept in modern physics that explains how gravity works. In simple terms, it states that gravity is not a force between objects, but rather the curvature of spacetime caused by the presence of mass and energy.
+
+Here's how it works:
+
+Imagine you have a massive planet like Earth. The planet's mass warps the fabric of spacetime around it, creating a gravitational field. This field is what we feel as gravity. Now, imagine you drop a ball on the surface of the planet. According to general relativity, the ball will follow a curved path due to the curvature of spacetime caused by the planet's mass. This means that the ball will not follow a straight line, but rather a curved one, which is what we experience as gravity.
+
+The theory of general relativity also predicts phenomena such as gravitational waves and black holes. Gravitational waves are ripples in spacetime caused by the acceleration of massive objects, while black holes are regions of spacetime where the gravitational pull is so strong that not even light can escape.
+
+In summary, general relativity is a theory that explains how mass and energy warp spacetime, causing the effects we experience as gravity. It's a fundamental concept in modern physics that has been confirmed by countless observations and experiments.
+===

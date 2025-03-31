@@ -1,0 +1,40 @@
+=== TASK: SUMMARIZATION for llama2 ===
+
+
+## Prompt 1
+> Prompt: Summarize the following paragraph:
+(Response time: 5.23 seconds)
+(CPU Usage: 6.2%, Memory Used: 11754.74 MB / 16088.46 MB (73.1%))
+>>> MODEL OUTPUT:
+Of course, I'd be happy to help you summarize the paragraph! Please provide the paragraph for me to read and I will summarize it for you.
+===
+
+
+## Prompt 2
+> Prompt: Summarize this news article:
+(Response time: 41.61 seconds)
+(CPU Usage: 2.3%, Memory Used: 11742.62 MB / 16088.46 MB (73.0%))
+>>> MODEL OUTPUT:
+Title: Scientists Discover New Species of Ancient Human in the Philippines
+
+Introduction:
+A team of scientists has discovered a new species of ancient human in the Philippines, which they have named Homo luzonensis. The species is believed to have lived on the island of Luzon at least 50,000 years ago and is distinct from other known human species.
+
+Description:
+The fossil remains of Homo luzonensis were found in Callao Cave on the northern coast of Luzon. The species is characterized by a mix of primitive and advanced features, such as a small brain and ape-like limbs, but also a sophisticated foot anatomy and a bipedal gait.
+
+Implications:
+The discovery of Homo luzonensis suggests that the evolution of human species was more complex and diverse than previously thought. The findings challenge the traditional view of human evolution, where Homo erectus was considered the only human species present in Asia during the Pleistocene epoch.
+
+Conclusion:
+The discovery of Homo luzonensis provides a new window into the early history of human evolution and highlights the importance of continued exploration and research in the Philippines. The findings have significant implications for our understanding of human evolution and may lead to new insights into the origins of modern humans.
+===
+
+
+## Prompt 3
+> Prompt: Summarize this story:
+(Response time: 4.72 seconds)
+(CPU Usage: 10.7%, Memory Used: 11742.08 MB / 16088.46 MB (73.0%))
+>>> MODEL OUTPUT:
+Sure, I'd be happy to help you summarize the story! Can you please provide me with the story you would like me to summarize?
+===
