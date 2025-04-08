@@ -2,7 +2,7 @@ import os
 import re
 import matplotlib.pyplot as plt
 
-models = ["tinyllama", "mistral", "llama2"]
+models = ["tinyllama", "mistral", "llama2:13b"]
 tasks = ["question_answering", "summarization", "code_generation", "creative_writing"]
 
 def extract_timings(model, task_file):

@@ -3,46 +3,46 @@
 
 ## Prompt 1
 > Prompt: What are the main causes of climate change?
-(Response time: 7.4 seconds)
-(CPU Usage: 5.3%, Memory Used: 12487.22 MB / 16088.46 MB (77.6%))
+(Response time: 3.87 seconds)
+(CPU Usage: 9.8%, Memory Used: 11754.71 MB / 16088.46 MB (73.1%))
 >>> MODEL OUTPUT:
-Climate change is caused by several factors, including:
+Climate change is caused by several primary causes:
+1. Emissions from human activities, primarily burning fossil fuels and deforestation.
+2. Natural processes like ocean acidification, glacier melting and permafrost thaw.
+3. Radiation emitted by nuclear power plants or military tests.
+4. The increase in greenhouse gas concentrations due to human activities.
+5. Volcanic activity.
+6. Other factors like agriculture and forestry practices, which increase greenhouse gas emissions. 
 
-1. The accumulation of greenhouse gases (GHGs) in the atmosphere, primarily from human activities such as burning fossil fuels and deforestation. This releases carbon dioxide (CO2), methane (CH4), nitrous oxide (N2O), and other GHGs into the air.
-
-2. The extraction, transportation, and combustion of fossil fuels, leading to the emissions of CO2 and other GHGs. This contributes to global warming, which leads to climate change.
-
-3. The loss of vegetation, forests, and wetlands as a result of deforestation, farmland degradation, and water resource depletion, leading to increased carbon dioxide and methane emissions.
-
-4. An increase in demand for energy, including electricity generation and heating and cooling, which causes the release of greenhouse gases into the atmosphere.
-
-5. The destruction of oceans and other water bodies, as a result of pollution and overfishing, leading to the depletion of marine life and increased ocean heat content, which drives climate change.
-
-6. Agricultural practices, such as crop selection, pest control, and soil management, that have an impact on land use, which also influences carbon storage in soils and vegetation.
-
-Overall, these factors contribute to the global increase in greenhouse gas concentrations and the planet's response to climate change.
+These main causes lead to the buildup of heat-trapping gases in the atmosphere, which causes global warming and climate change. The consequences can include sea level rise, droughts, wildfires, extreme weather events like hurricanes and floods, and changes in crop patterns and ecosystems.
 ===
 
 
 ## Prompt 2
 > Prompt: Who wrote the play "Hamlet" and what is its central theme?
-(Response time: 1.44 seconds)
-(CPU Usage: 2.2%, Memory Used: 12473.57 MB / 16088.46 MB (77.5%))
+(Response time: 1.78 seconds)
+(CPU Usage: 5.6%, Memory Used: 11748.06 MB / 16088.46 MB (73.0%))
 >>> MODEL OUTPUT:
-"Hamlet" (1976) is a drama written by Danish author Jens Christensen, who also directed it. The play explores the themes of power, loyalty, and betrayal in a small, conservative Danish town where everyone seems to have their own agenda. Through the story of the main character, played by actor Per Kjølgaard, we witness the corrupting influence of power on individuals, and how they often make unwise decisions based on their own desires rather than what is best for the greater good. The central theme of the play is a critique of societal norms that impede progress and innovation in favor of maintaining the status quo.
+"Hamlet," also known as "The Unknown," is a play written by the French author Jean-Jacques Mourquy. The play's central theme explores the theme of secrecy, deception, and betrayal in the context of political intrigue and espionage. The main character, a young man named Antoine, who is tasked with spying on a group of conspirators who are plotting to overthrow the French government, becomes entangled in their web of lies and deceit.
+
+As the play progresses, Antoine becomes more and more disillusioned with his mission and begins to question the legitimacy of the revolutionary cause itself. The play ultimately highlights the dangers and complexities of political intrigue and espionage, as well as the destructive power of secrecy and deception in shaping human relationships and understanding.
 ===
 
 
 ## Prompt 3
 > Prompt: Explain the theory of general relativity in simple terms.
-(Response time: 3.02 seconds)
-(CPU Usage: 2.4%, Memory Used: 12665.64 MB / 16088.46 MB (78.7%))
+(Response time: 4.89 seconds)
+(CPU Usage: 8.5%, Memory Used: 11889.02 MB / 16088.46 MB (73.9%))
 >>> MODEL OUTPUT:
-In physics, general relativity is a theoretical framework that describes how gravity and spacetime interact. It's based on the idea that all objects in the universe are affected by gravity, but not every object experiences it in exactly the same way. The theory proposes that gravity is not just a force acting between objects, but a curvature of spacetime itself (which includes other forms of energy, such as electromagnetic fields).
+In physics, general relativity is one of the most important theoretical frameworks that attempts to unify gravity with the rest of the classical physics. It proposes a new way of understanding how space and time behave in the context of massive bodies like planets, stars, and galaxies. The theory was developed by Albert Einstein over 100 years ago and has since been tested through various observations and experiments. Here are some simple explanations for the theory:
 
-The theory is based on a fundamental principle called Einstein's theory of general relativity (also known as the theory of special relativity), which states that the laws of physics are the same regardless of the observer or the motion of the object. General relativity extends this to include not just the laws of physics but also how gravity and spacetime interact with each other.
+1. Gravity: General relativity explains how gravity works in the context of massive objects like planets or stars. It posits that the pull of gravity is equivalent to a weight on a scale, which is affected by the mass of the body. The force of gravity depends on the curvature of spacetime (the curvature of space-time is related to gravity), and this curvature is affected by the position and mass of the object.
 
-In simpler terms, the theory says that the behavior of objects in the universe is shaped by the curvature of spacetime, which in turn affects how matter interacts with each other and with the fabric of space-time itself. The curvature of spacetime can be affected by the mass and energy density of an object (its gravitational field), as well as by the presence of other forms of energy (such as electromagnetic fields) that are also affected by the curvature.
+2. Time: General relativity proposes that time is not a simple continuum but an abstract concept, based on how we perceive and interpret the passage of events. Gravity also affects time according to the theory - it causes objects to move at a faster pace in the vicinity of a massive body, while moving at slower speeds farther away.
 
-This is a complex theory with many implications for our understanding of the universe, but it has been successfully tested in numerous experiments and observations that have led to significant advances in scientific knowledge.
+3. Mass: General relativity explains how mass affects gravity. As mass is concentrated closer to a massive object, its gravitational pull becomes stronger and its effects on space-time are more pronounced. The theory also proposes that the acceleration of a massive body due to gravity depends on its mass and distance from the observer.
+
+4. Gravitons: General relativity also posits the existence of "gravitons" or gravitational waves. These waves carry information about the presence of large masses and their effects on space-time, but they are not directly observable. The theory uses Einstein's equations to predict the properties of these waves, which include mass, energy, momentum, and other characteristics.
+
+These are just a few examples of how general relativity explains gravity. By combining the concepts of spacetime, mass, and gravity, this theory has greatly improved our understanding of how the universe works.
 ===

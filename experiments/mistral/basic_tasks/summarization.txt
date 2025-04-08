@@ -3,46 +3,38 @@
 
 ## Prompt 1
 > Prompt: Summarize the following paragraph:
-(Response time: 12.03 seconds)
-(CPU Usage: 1.7%, Memory Used: 13831.46 MB / 16088.46 MB (86.0%))
+(Response time: 22.61 seconds)
+(CPU Usage: 24.3%, Memory Used: 15280.41 MB / 16088.46 MB (95.0%))
 >>> MODEL OUTPUT:
-The paragraph discusses a study on the effects of urban noise pollution and green spaces on people's mental health. The research found that exposure to high levels of urban noise is associated with increased risk of poor mental health outcomes, such as stress, anxiety, and mood disorders. However, having access to green spaces can mitigate some of these negative effects by providing a respite from the noise and promoting relaxation and positive emotions. The study suggests that urban planners should consider this when designing cities to improve overall population wellbeing.
+In the provided paragraph, it discusses a study that was conducted to understand how plants respond to changing climatic conditions. The researchers used an experimental setup where they exposed different plant species to various temperature and CO2 levels to mimic future climate scenarios. They found that most plants responded positively to increased CO2 levels, but their growth slowed under high temperatures. This suggests that while CO2 fertilization may help plants grow in a warmer world, the negative effects of higher temperatures might offset these benefits. The researchers emphasized the importance of considering both variables when studying plant responses to climate change.
+
+In summary: A study found that most plants grow better with increased CO2 levels but their growth slows under high temperatures, indicating that future climate scenarios may have positive and negative effects on plant growth.
 ===
 
 
 ## Prompt 2
 > Prompt: Summarize this news article:
-(Response time: 48.64 seconds)
-(CPU Usage: 3.0%, Memory Used: 13878.14 MB / 16088.46 MB (86.3%))
+(Response time: 28.19 seconds)
+(CPU Usage: 18.6%, Memory Used: 15316.52 MB / 16088.46 MB (95.2%))
 >>> MODEL OUTPUT:
-Title: "U.S. and European Union Reach Deal on Steel and Aluminum Tariffs"
+Title: "Rising star on the rise: New York Knicks draft RJ Barrett third overall in the NBA Draft"
 
-The United States and the European Union (EU) have reached a deal to reduce tariffs on steel and aluminum products, marking an end to a years-long dispute between the two economic powerhouses. The agreement was announced by U.S. Trade Representative Katherine Tai and EU Trade Commissioner Valdis Dombrovskis in Washington D.C., following 18 months of negotiations.
-
-Under the terms of the deal, both sides will gradually eliminate tariffs on steel and aluminum imports over a period of up to two years. The EU will remove its retaliatory tariffs on U.S. goods, which were imposed in response to the steel and aluminum tariffs introduced by the Trump administration in 2018.
-
-The agreement is significant as it marks a step towards closer economic cooperation between the U.S. and the EU, who are each other's largest trading partners. The deal is also expected to create jobs in both regions, promote growth, and strengthen competitiveness. It comes at a time when both economies are recovering from the COVID-19 pandemic and are facing new challenges such as supply chain disruptions and increased competition from emerging markets.
-
-This development is seen as a positive move by both sides and is likely to be welcomed by businesses and workers in industries that rely on steel and aluminum imports. However, some critics argue that the deal does not go far enough in addressing broader trade issues between the U.S. and EU, such as digital taxes and subsidies for aircraft manufacturers.
-
-In conclusion, the U.S. and EU have reached a deal to gradually eliminate tariffs on steel and aluminum imports over two years, marking an end to a long-standing dispute and a step towards closer economic cooperation between the two parties. The agreement is expected to create jobs, promote growth, and strengthen competitiveness in both regions. However, broader trade issues remain unaddressed.
+ Summary: The New York Knicks selected Canadian basketball player R.J. Barrett as their third pick in the 2019 NBA Draft. Barrett, a Duke University standout, is considered one of the top prospects for the upcoming season due to his versatility and strong work ethic. This pick marks a significant step towards rebuilding the Knicks roster and restoring faith among fans who have been waiting for a promising draft selection. The team's general manager, Scott Perry, expressed excitement about Barrett joining the team, citing his ability to contribute across multiple positions and his leadership qualities as key factors in their decision-making process. Barrett himself has expressed enthusiasm for playing with the Knicks and contributing to the franchise's resurgence. The selection of RJ Barrett adds anticipation to an already buzzing offseason for the New York Knicks and NBA fans alike.
 ===
 
 
 ## Prompt 3
 > Prompt: Summarize this story:
-(Response time: 40.21 seconds)
-(CPU Usage: 1.0%, Memory Used: 13795.55 MB / 16088.46 MB (85.7%))
+(Response time: 28.83 seconds)
+(CPU Usage: 14.2%, Memory Used: 14583.09 MB / 16088.46 MB (90.6%))
 >>> MODEL OUTPUT:
-Title: The Most Dangerous Game
+Title: The Ugly Duckling by Hans Christian Andersen
 
-In a mysterious and remote land, an unnamed protagonist wakes up as a hunter's prey in a macabre game. A wealthy, eccentric man named General Zaroff invites the protagonist aboard his yacht under false pretenses, only to reveal his intention of hunting him for sport. Zaroff is accompanied by his loyal servant Ivan.
+In a farmyard, there lived a mother duck and her children. One day, a strange-looking duckling was born - larger and uglier than all the others. He was rejected by his family and had to live alone in a pond near the barn.
 
-The protagonist quickly devises a plan to escape and sets a trap for Zaroff. However, Zaroff manages to outsmart him, leaving the protagonist injured in the jungle. Injured but resilient, the protagonist follows Zaroff's instructions to head for his hunting lodge.
+As he grew up, the ugly duckling faced ridicule and rejection from everyone around him due to his appearance. He wandered from place to place, feeling lonely and unwanted. However, as time passed, he started to change, transforming into a graceful and beautiful swan.
 
-On the way, the protagonist encounters Sanger Rainsford, a wealthy big-game hunter who has also fallen prey to Zaroff. Together, they hatch a plan to turn the tables on their pursuer. They sneak into Zaroff's camp and pretend to be dead, luring Zaroff into thinking he has successfully hunted them.
+One day, while swimming in a lake with other swans, the ugly duckling finally realized that he was not a duck anymore but a beautiful swan. He was overjoyed and felt complete. The story ends with him living happily among his kind, cherished and admired by everyone for his beauty.
 
-The following day, Zaroff and Ivan return to hunt the 'dead' bodies, only to find that they have switched places and are now hiding in their camp. The two friends ambush Zaroff and kill him. They then return to civilization, leaving Ivan behind as he is too weak to make the journey.
-
-The story ends with Rainsford expressing his revulsion at Zaroff's barbaric game but acknowledging that he would likely engage in the same behavior given the opportunity, a dark reflection on human nature and the thrill of the hunt.
+The moral of this story is that one should never judge others based on their appearance as they might transform into something beautiful over time.
 ===

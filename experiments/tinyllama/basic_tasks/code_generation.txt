@@ -3,103 +3,70 @@
 
 ## Prompt 1
 > Prompt: Write a Python function to check if a string is a palindrome.
-(Response time: 4.15 seconds)
-(CPU Usage: 1.2%, Memory Used: 12605.39 MB / 16088.46 MB (78.4%))
+(Response time: 1.93 seconds)
+(CPU Usage: 5.1%, Memory Used: 11973.05 MB / 16088.46 MB (74.4%))
 >>> MODEL OUTPUT:
+Here's a Python function that can help you check whether a given string is a palindrome or not:
+
 ```python
-def is_palindrome(s: str) -> bool:
+def is_palindrome(input_string):
     """
-    Checks whether a given string is a palindrome (in other words, whether it reads the same forward and backward).
-
-    Args:
-        s (str): The string to be checked.
-
-    Returns:
-        bool: True if the string is a palindrome, False otherwise.
+    This function returns True if the input string is a palindrome and False otherwise.
+    
+    Input: A string
+    Output: True/False based on whether the input string is a palindrome or not.
     """
-    s = s.lower()  # Make all characters lowercase for easier comparisons
-    
-    # If the string starts with the same characters as it ends with, then we have a palindrome
-    if s[0] == s[-1]:
-        return True
-    
-    # We break up the string into substrings and check each substring against itself
-    for I in range(len(s) // 2):
-        left = s[:i] + s[-i:]
-        right = s[i+1:] + s[:i]
+    # check if the input string is empty or None
+    if input_string == "" or input_string is None:
+        return False
         
-        if left == right:
-            # If the substrings are equal, then they're a palindrome
-            return True
-    
-    # Otherwise, we've hit an endless loop where the strings are not a palindrome
-    return False
+    # reverse the input string and try to compare it with itself
+    reversed_input_string = input_string[::-1]
+    if reversed_input_string == input_string:
+        return True
+    else:
+        return False
 ```
-
-Examples:
-```python
-s1 = "racecar"
-print(is_palindrome(s1))  # Output: True since "racecar" is a palindrome.
-
-s2 = "Hello World!"
-print(is_palindrome(s2))  # Output: False since the strings do not have the same characters at both ends, and thus are not a palindrome.
-
-s3 = "A man, a plan, a canal, Panama!"
-print(is_palindrome(s3))  # Output: True since the strings have the same characters in the middle, and thus are a palindrome. ```
 ===
 
 
 ## Prompt 2
 > Prompt: Create a simple HTML webpage with a title and a paragraph of text.
-(Response time: 2.5 seconds)
-(CPU Usage: 3.5%, Memory Used: 12594.91 MB / 16088.46 MB (78.3%))
+(Response time: 2.25 seconds)
+(CPU Usage: 5.7%, Memory Used: 11979.23 MB / 16088.46 MB (74.5%))
 >>> MODEL OUTPUT:
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Helpful AI Assistant</title>
-    <style>
-      body {
-        font-family: sans-serif;
-        margin: 0;
-        padding: 0;
-      }
-      h1 {
-        text-align: center;
-        background-color: #336699;
-        color: #ffffff;
-        padding: 10px;
-      }
-      p {
-        margin: 20px;
-      }
-    </style>
-  </head>
-  <body>
-    <h1>Helpful AI Assistant</h1>
-    <p>Would you like to learn more about our helpful AI assistant? Simply hit the "Request Help" button to get started!</p>
-    <button onclick="requestHelp()">Request Help</button>
-  </body>
-</html>
+[Your Website Title] - Helpful AI Assistant
+
+[Insert a Heading]({{title}}):
+
+🤖 Introducing the AI Assistant, your helpful friend for all your troubles!
+
+As an artificial intelligence (AI) assistant, we are always available to assist you with any questions or concerns. Our aim is to provide you with the best possible solutions and support in a friendly and efficient manner.
+
+Let's start by discussing some common issues that our AI Assistant has encountered and resolved for our users:
+
+1. [Resolved Issue]: Our AI Assistant is trained to understand and handle [problem] accurately and efficiently. If you have any further questions or concerns, please do not hesitate to reach out!
+
+In conclusion, we believe that our AI Assistant is the perfect solution for all your problems. Don't hesitate to contact us with any queries or concerns you may have in the future. Thank you for choosing our AI Assistant as your go-to support system!
+
+[Insert a footer]
 ===
 
 
 ## Prompt 3
 > Prompt: Write a SQL query to select all customers from a table called `customers` who made purchases over $500 in the last month.
-(Response time: 1.91 seconds)
-(CPU Usage: 3.1%, Memory Used: 12607.11 MB / 16088.46 MB (78.4%))
+(Response time: 2.16 seconds)
+(CPU Usage: 4.3%, Memory Used: 11858.39 MB / 16088.46 MB (73.7%))
 >>> MODEL OUTPUT:
-To select all customers from a table called `customer` who made a purchase over $500 within the past month, you can use the following SQL query:
+To select all customers from a table called "customers" who made a purchase over $500 in the last month using SQL, we can use the "WHERE" clause with an aggregation function like SUM() or AVG(). For example:
 
 ```sql
-SELECT *
+SELECT cust_name, SUM(purchase_amount) AS total_spend
 FROM customers
-WHERE purchases > (SELECT AVG(purchases) FROM customer_purchases WHERE customer_id = customer.customer_id AND MONTH(purchase_date) = MONTH(CURDATE()) - 1)
-AND MONTH(CURDATE()) = MONTH(purchases)
-AND YEAR(CURDATE()) = YEAR(purchases);
+WHERE YEAR(purchased_on) = 2019 AND MONTH(purchased_on) = 6 AND PURCHASED_AMOUNT > 500
+GROUP BY cust_name
+ORDER BY total_spend DESC;
 ```
 
-Here, we're using the `AVG()` function to calculate the average value of the `purchases` column for all customers who made purchases over $500 in the past month. We're then filtering these customers from the table `customer`.
+In this example, we are selecting all customers from the `customers` table, filtering them based on a condition that they made a purchase in the last month (inclusive of the last day) over $500, and then aggregating their total spend across all transactions. The resulting query will only return the names and aggregate values for the highest spend customers.
 ===

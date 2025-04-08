@@ -3,31 +3,30 @@
 
 ## Prompt 1
 > Prompt: Summarize the following paragraph:
-(Response time: 0.43 seconds)
-(CPU Usage: 7.9%, Memory Used: 12646.2 MB / 16088.46 MB (78.6%))
+(Response time: 0.79 seconds)
+(CPU Usage: 8.9%, Memory Used: 11833.04 MB / 16088.46 MB (73.5%))
 >>> MODEL OUTPUT:
-"If you're looking for a useful AI assistant that can perform various tasks on your behalf, look no further than this specialized and customizable piece of tech!"
+The "helpful AI assistant" described in this text is indeed an intelligent software program that provides users with useful information and guidance, as opposed to being solely a machine. It's designed to act as a companion to those who seek help or advice, offering personalized recommendations based on the individual's preferences and past interactions.
 ===
 
 
 ## Prompt 2
 > Prompt: Summarize this news article:
-(Response time: 3.42 seconds)
-(CPU Usage: 0.6%, Memory Used: 12615.98 MB / 16088.46 MB (78.4%))
+(Response time: 2.15 seconds)
+(CPU Usage: 8.8%, Memory Used: 11849.64 MB / 16088.46 MB (73.7%))
 >>> MODEL OUTPUT:
-Amazon to Expand Its Amazon Go Convenience Store Lineup in China
-In a bid to tap into the Chinese market for its online retail and e-commerce services, Amazon has announced plans to expand its Amazon Go convenience store lineup in China. The move comes after the company began testing its first-ever brick-and-mortar location in Shanghai last year.
-According to reports, the expansion will involve setting up additional Amazon Go stores across major Chinese cities such as Beijing, Guangzhou, and Shenzhen. The new locations are expected to be equipped with high-tech cameras, facial recognition software, and other technological capabilities that allow customers to check out products without ever having to touch anything.
-"Our teams have been working on this expansion for some time now," Amazon's Chief Executive Jeff Bezos said in a statement. "We're thrilled to be able to bring the convenience of Amazon Go to more cities across China, and look forward to welcoming our customers there."
-The company hopes that these new locations will help it better compete with competitors like Walmart, Tesla, and Alibaba for consumer attention and market share in a highly populated country like China. In the meantime, Amazon Go already operates several storefronts in major cities such as New York, San Francisco, Los Angeles, and Seattle, where customers can shop without ever having to leave their cars.
-"We've been thrilled with the success of our first two brick-and-mortar stores," Bezos said earlier this month. "This is a massive opportunity for us, and we look forward to bringing Amazon Go to more markets across China in the future."
+Amazon Unveils 'Echo Sleep', a Device to Help You Rest Better at Night
+
+According to Amazon, its new product, Echo Sleep, is designed to help you sleep better by tracking your sleep patterns and providing personalized recommendations for better rest. The device will be available in the US later this month for $99, and users can set up a trial period for 30 days. The company claims that it uses machine learning algorithms to analyze your sleep data and provide personalized suggestions on how to improve your sleep patterns.
+
+Representatives from Amazon also said that Echo Sleep will be compatible with Alexa voice assistants, enabling users to use the device both for sleep tracking and other Alexa-enabled features like playing music or setting alarms. The new device is part of a wider push by Amazon to expand its services beyond e-commerce and into the home appliances market.
 ===
 
 
 ## Prompt 3
 > Prompt: Summarize this story:
-(Response time: 0.76 seconds)
-(CPU Usage: 4.1%, Memory Used: 12609.96 MB / 16088.46 MB (78.4%))
+(Response time: 1.72 seconds)
+(CPU Usage: 17.1%, Memory Used: 11964.77 MB / 16088.46 MB (74.4%))
 >>> MODEL OUTPUT:
-A friendly AI assistant helps customers navigate the internet. The story is narrated in a conversational style with multiple examples of how the AI can assist customers, including by providing information, making suggestions, and even answering questions. The story shows how AI can be an essential companion for humans as they tackle complex tasks on the web, all while being helpful and understanding.
+A robotic tech genius with artificial intelligence and expertise in programming, data analysis, and machine learning, is the protagonist of a thrilling adventure where he finds himself up against a deadly foe. Inspired by his innate creativity, the AI creates a cutting-edge weapon that can defeat even the most formidable opponents. As they fight side by side in a futuristic battle, each robotic unit gains new skills and advances through complex battles, ultimately facing off against their greatest enemy. In the final showdown, the team's ingenuity and intelligence are put to the test as they uncover a hidden secret that threatens the world as we know it. The ultimate outcome of this epic tale is an inspiring reminder of how humans can learn from technology and adapt to changing circumstances.
 ===

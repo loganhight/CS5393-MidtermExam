@@ -3,7 +3,7 @@ import subprocess
 import time
 import psutil
 
-models = ["tinyllama", "mistral", "llama2"]
+models = ["tinyllama", "mistral", "llama2:13b"]
 tasks = ["question_answering", "summarization", "code_generation", "creative_writing"]
 
 def get_resource_usage():
@@ -34,6 +34,11 @@ def run_prompt_and_capture(model: str, prompt: str) -> tuple[str, float, dict]:
     return output.strip(), duration, resource_usage
 
 def process_basic_tasks(model: str):
+    model_actual = model
+    
+    if model == "llama2:13b":
+        model = "llama2"
+    
     for task in tasks:
         prompt_file = f"prompts/basic_tasks/{task}.md"
         output_file = f"experiments/{model}/basic_tasks/{task}.txt"
@@ -53,7 +58,7 @@ def process_basic_tasks(model: str):
                     current_prompt = line.strip()
                     f_out.write(f"> Prompt: {current_prompt}\n")
                     print(f"Running: {model} — {task} — {current_prompt}")
-                    output, duration, resources = run_prompt_and_capture(model, current_prompt)
+                    output, duration, resources = run_prompt_and_capture(model_actual, current_prompt)
                     f_out.write(f"(Response time: {duration} seconds)\n")
                     f_out.write(f"(CPU Usage: {resources['cpu_percent']}%, Memory Used: {resources['mem_used_mb']} MB / {resources['mem_total_mb']} MB ({resources['mem_percent']}%))\n")
                     f_out.write(">>> MODEL OUTPUT:\n")
