@@ -9,7 +9,7 @@ def extract_resources(model, task_file):
     cpu_usages = []
     mem_usages = []
 
-    with open(task_file, "r") as f:
+    with open(task_file, "r", encoding="utf-8") as f:
         for line in f:
             cpu_match = re.search(r"CPU Usage: ([\d.]+)%", line)
             mem_match = re.search(r"Memory Used: ([\d.]+) MB", line)

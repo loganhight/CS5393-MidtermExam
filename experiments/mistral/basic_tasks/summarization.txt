@@ -3,34 +3,46 @@
 
 ## Prompt 1
 > Prompt: Summarize the following paragraph:
-(Response time: 18.71 seconds)
-(CPU Usage: 44.1%, Memory Used: 14858.95 MB / 16088.46 MB (92.4%))
+(Response time: 12.03 seconds)
+(CPU Usage: 1.7%, Memory Used: 13831.46 MB / 16088.46 MB (86.0%))
 >>> MODEL OUTPUT:
-The paragraph discusses a study that found eating more plant-based foods could help slow down aging and reduce the risk of diseases such as diabetes, heart disease, and some cancers. The study suggests that a diet rich in fruits, vegetables, legumes, and whole grains promotes healthy aging by reducing inflammation in the body, improving gut health, and supporting the immune system. It also mentions a potential link between the Mediterranean diet, which is high in these foods, and longevity. The study emphasizes that a balanced diet should include a variety of plant-based foods to reap the full benefits.
+The paragraph discusses a study on the effects of urban noise pollution and green spaces on people's mental health. The research found that exposure to high levels of urban noise is associated with increased risk of poor mental health outcomes, such as stress, anxiety, and mood disorders. However, having access to green spaces can mitigate some of these negative effects by providing a respite from the noise and promoting relaxation and positive emotions. The study suggests that urban planners should consider this when designing cities to improve overall population wellbeing.
 ===
 
 
 ## Prompt 2
 > Prompt: Summarize this news article:
-(Response time: 36.9 seconds)
-(CPU Usage: 49.4%, Memory Used: 15409.58 MB / 16088.46 MB (95.8%))
+(Response time: 48.64 seconds)
+(CPU Usage: 3.0%, Memory Used: 13878.14 MB / 16088.46 MB (86.3%))
 >>> MODEL OUTPUT:
-Title: "Apple's Q1 2023 Results: Revenue and Profit Beat Expectations"
+Title: "U.S. and European Union Reach Deal on Steel and Aluminum Tariffs"
 
-Summary: In a recent financial report, tech giant Apple announced its quarterly earnings for Q1 of 2023. The company reported a revenue of $118.7 billion, which is a 6% increase compared to the same quarter last year, exceeding analysts' expectations of $114.5 billion. Apple's profit also surpassed predictions, with a net income of $30.2 billion, up from $28.9 billion in Q1 2022. This growth was fueled by strong iPhone sales, which accounted for about half of Apple's total revenue. The company's services segment, including offerings like the App Store and iCloud, also saw an increase in revenue. The positive earnings report signals a resilient performance from Apple amidst economic uncertainty.
+The United States and the European Union (EU) have reached a deal to reduce tariffs on steel and aluminum products, marking an end to a years-long dispute between the two economic powerhouses. The agreement was announced by U.S. Trade Representative Katherine Tai and EU Trade Commissioner Valdis Dombrovskis in Washington D.C., following 18 months of negotiations.
+
+Under the terms of the deal, both sides will gradually eliminate tariffs on steel and aluminum imports over a period of up to two years. The EU will remove its retaliatory tariffs on U.S. goods, which were imposed in response to the steel and aluminum tariffs introduced by the Trump administration in 2018.
+
+The agreement is significant as it marks a step towards closer economic cooperation between the U.S. and the EU, who are each other's largest trading partners. The deal is also expected to create jobs in both regions, promote growth, and strengthen competitiveness. It comes at a time when both economies are recovering from the COVID-19 pandemic and are facing new challenges such as supply chain disruptions and increased competition from emerging markets.
+
+This development is seen as a positive move by both sides and is likely to be welcomed by businesses and workers in industries that rely on steel and aluminum imports. However, some critics argue that the deal does not go far enough in addressing broader trade issues between the U.S. and EU, such as digital taxes and subsidies for aircraft manufacturers.
+
+In conclusion, the U.S. and EU have reached a deal to gradually eliminate tariffs on steel and aluminum imports over two years, marking an end to a long-standing dispute and a step towards closer economic cooperation between the two parties. The agreement is expected to create jobs, promote growth, and strengthen competitiveness in both regions. However, broader trade issues remain unaddressed.
 ===
 
 
 ## Prompt 3
 > Prompt: Summarize this story:
-(Response time: 30.51 seconds)
-(CPU Usage: 8.6%, Memory Used: 15556.52 MB / 16088.46 MB (96.7%))
+(Response time: 40.21 seconds)
+(CPU Usage: 1.0%, Memory Used: 13795.55 MB / 16088.46 MB (85.7%))
 >>> MODEL OUTPUT:
-Title: The Starfish Thrower
+Title: The Most Dangerous Game
 
-In a small coastal town, an old man named Oscar spent his days walking along the beach, throwing starfish that had been washed ashore back into the ocean. A young girl approached him and asked why he bothered, as the tide would just wash them up again. Oscar explained that if he didn't help, they would die before the next high tide.
+In a mysterious and remote land, an unnamed protagonist wakes up as a hunter's prey in a macabre game. A wealthy, eccentric man named General Zaroff invites the protagonist aboard his yacht under false pretenses, only to reveal his intention of hunting him for sport. Zaroff is accompanied by his loyal servant Ivan.
 
-The girl, skeptical of making a difference, pointed out that there were hundreds of starfish along the beach and only one man. Oscar picked up another starfish, tossed it gently into the ocean, and said, "I made a difference for that one." The girl decided to help him, and together they worked their way along the shoreline, rescuing starfish.
+The protagonist quickly devises a plan to escape and sets a trap for Zaroff. However, Zaroff manages to outsmart him, leaving the protagonist injured in the jungle. Injured but resilient, the protagonist follows Zaroff's instructions to head for his hunting lodge.
 
-The story serves as an analogy of making a positive impact in the world, no matter how small or seemingly insignificant one's actions may seem. It emphasizes that each person has the power to make a difference and encourages empathy and compassion for all living beings.
+On the way, the protagonist encounters Sanger Rainsford, a wealthy big-game hunter who has also fallen prey to Zaroff. Together, they hatch a plan to turn the tables on their pursuer. They sneak into Zaroff's camp and pretend to be dead, luring Zaroff into thinking he has successfully hunted them.
+
+The following day, Zaroff and Ivan return to hunt the 'dead' bodies, only to find that they have switched places and are now hiding in their camp. The two friends ambush Zaroff and kill him. They then return to civilization, leaving Ivan behind as he is too weak to make the journey.
+
+The story ends with Rainsford expressing his revulsion at Zaroff's barbaric game but acknowledging that he would likely engage in the same behavior given the opportunity, a dark reflection on human nature and the thrill of the hunt.
 ===

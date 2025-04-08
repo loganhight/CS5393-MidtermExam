@@ -3,91 +3,103 @@
 
 ## Prompt 1
 > Prompt: Write a Python function to check if a string is a palindrome.
-(Response time: 2.85 seconds)
-(CPU Usage: 7.4%, Memory Used: 12553.14 MB / 16088.46 MB (78.0%))
+(Response time: 4.15 seconds)
+(CPU Usage: 1.2%, Memory Used: 12605.39 MB / 16088.46 MB (78.4%))
 >>> MODEL OUTPUT:
-Here's a Python function that checks if a given string is a palindrome (reversed identical to its original order):
-
 ```python
-def is_palindrome(string):
+def is_palindrome(s: str) -> bool:
     """
-    Checks if a given string is a palindrome (reversed identical to its original order)
-    :param string: The string to check for palindrome
-    :return bool: True if the input string is a palindrome, False otherwise
-    """
-    
-    # Convert the string to lowercase and remove any whitespace characters
-    string = str(string).lower().replace(' ', '')
+    Checks whether a given string is a palindrome (in other words, whether it reads the same forward and backward).
 
-    # Loop through all characters of the string and compare each with its reverse character
-    for I in range(len(string) // 2):
-        if string[i], string[i + 1] != ('a' <= string[i] <= 'z' or 'A' <= string[i] <= 'Z'):
-            return False
+    Args:
+        s (str): The string to be checked.
+
+    Returns:
+        bool: True if the string is a palindrome, False otherwise.
+    """
+    s = s.lower()  # Make all characters lowercase for easier comparisons
     
-    # If the loop completed without finding any mismatched characters, the input string is a palindrome
-    return True
+    # If the string starts with the same characters as it ends with, then we have a palindrome
+    if s[0] == s[-1]:
+        return True
+    
+    # We break up the string into substrings and check each substring against itself
+    for I in range(len(s) // 2):
+        left = s[:i] + s[-i:]
+        right = s[i+1:] + s[:i]
+        
+        if left == right:
+            # If the substrings are equal, then they're a palindrome
+            return True
+    
+    # Otherwise, we've hit an endless loop where the strings are not a palindrome
+    return False
 ```
 
-Here's an example usage:
-
+Examples:
 ```python
->>> string = "racecar"
->>> is_palindrome(string)
-True
-```
+s1 = "racecar"
+print(is_palindrome(s1))  # Output: True since "racecar" is a palindrome.
+
+s2 = "Hello World!"
+print(is_palindrome(s2))  # Output: False since the strings do not have the same characters at both ends, and thus are not a palindrome.
+
+s3 = "A man, a plan, a canal, Panama!"
+print(is_palindrome(s3))  # Output: True since the strings have the same characters in the middle, and thus are a palindrome. ```
 ===
 
 
 ## Prompt 2
 > Prompt: Create a simple HTML webpage with a title and a paragraph of text.
-(Response time: 2.45 seconds)
-(CPU Usage: 7.4%, Memory Used: 12584.12 MB / 16088.46 MB (78.2%))
+(Response time: 2.5 seconds)
+(CPU Usage: 3.5%, Memory Used: 12594.91 MB / 16088.46 MB (78.3%))
 >>> MODEL OUTPUT:
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Title</title>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Helpful AI Assistant</title>
     <style>
-        body {
-            background-color: #f2f2f2;
-            font-size: 16px;
-            line-height: 1.5em;
-            color: #333;
-        }
-        h1 {
-            font-size: 30px;
-            text-align: center;
-            margin: 20px 0;
-        }
-        p {
-            padding: 10px;
-            border: solid 1px #ccc;
-            margin: 0 auto 40px;
-            max-width: 50%;
-            display: table;
-        }
+      body {
+        font-family: sans-serif;
+        margin: 0;
+        padding: 0;
+      }
+      h1 {
+        text-align: center;
+        background-color: #336699;
+        color: #ffffff;
+        padding: 10px;
+      }
+      p {
+        margin: 20px;
+      }
     </style>
-</head>
-<body>
-    <h1>The Ultimate Guide to Web Development!</h1>
-    <p>
+  </head>
+  <body>
+    <h1>Helpful AI Assistant</h1>
+    <p>Would you like to learn more about our helpful AI assistant? Simply hit the "Request Help" button to get started!</p>
+    <button onclick="requestHelp()">Request Help</button>
+  </body>
+</html>
 ===
 
 
 ## Prompt 3
 > Prompt: Write a SQL query to select all customers from a table called `customers` who made purchases over $500 in the last month.
-(Response time: 2.78 seconds)
-(CPU Usage: 6.8%, Memory Used: 12580.89 MB / 16088.46 MB (78.2%))
+(Response time: 1.91 seconds)
+(CPU Usage: 3.1%, Memory Used: 12607.11 MB / 16088.46 MB (78.4%))
 >>> MODEL OUTPUT:
-Using the database provided, you can write a simple and effective SQL query to retrieve the list of customers whose purchase history exceeded the threshold of $500 for the past month:
+To select all customers from a table called `customer` who made a purchase over $500 within the past month, you can use the following SQL query:
 
-```
-SELECT c.customer_id, c.first_name, c.last_name
-FROM customers as c
-JOIN purchase_history as ph ON c.customer_id = ph.customer_id
-WHERE ph.purchase_date >= DATEADD(month, -1, GETDATE()) AND ph.amount > 500;
+```sql
+SELECT *
+FROM customers
+WHERE purchases > (SELECT AVG(purchases) FROM customer_purchases WHERE customer_id = customer.customer_id AND MONTH(purchase_date) = MONTH(CURDATE()) - 1)
+AND MONTH(CURDATE()) = MONTH(purchases)
+AND YEAR(CURDATE()) = YEAR(purchases);
 ```
 
-In this query, we're using `JOIN` to join the table of customer records (`customers`) with a table of purchase history (`purchase_history`). We're filtering for customers whose purchase history exceeded the threshold (i.e., those who made purchases over $500 in the past month). The subquery within the `JOIN` creates the conditions for the purchase history to be included in the result set, using the `DATEADD()` function to add one month from the current date (`GETDATE()`) to the `purchase_date` field of each row in the purchase history table. Finally, we're selecting all columns from both tables for the query.
+Here, we're using the `AVG()` function to calculate the average value of the `purchases` column for all customers who made purchases over $500 in the past month. We're then filtering these customers from the table `customer`.
 ===

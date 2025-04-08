@@ -3,67 +3,63 @@
 
 ## Prompt 1
 > Prompt: Write a Python function to check if a string is a palindrome.
-(Response time: 26.2 seconds)
-(CPU Usage: 5.7%, Memory Used: 15526.38 MB / 16088.46 MB (96.5%))
+(Response time: 27.5 seconds)
+(CPU Usage: 3.6%, Memory Used: 13795.17 MB / 16088.46 MB (85.7%))
 >>> MODEL OUTPUT:
 Here's a simple Python function that checks if a given string is a palindrome:
 
 ```python
-def is_palindrome(input_string):
-    input_string = input_string.lower()
-    reversed_string = input_string[::-1]
-    return input_string == reversed_string
-
-# Test cases
-print(is_palindrome("racecar"))  # True
-print(is_palindrome("hello"))   # False
+def is_palindrome(s):
+    s = s.lower()
+    s = ''.join(c for c in s if c.isalnum())  # Remove non-alphanumeric characters and convert to lowercase
+    return s == s[::-1]                        # Check if the string is equal to its reverse
 ```
 
-This function first converts the given string to lowercase. Then it creates a reversed version of the input string using slicing with step -1. Finally, it compares the original and reversed strings to check if they are equal. If they are identical, the function returns True (indicating that the input is a palindrome), otherwise False.
+This function first removes any non-alphanumeric characters from the input string (e.g., spaces, punctuation) and converts all characters to lowercase. Then it checks if the resulting string is equal to its reverse, which indicates that the original string is a palindrome.
+
+You can test this function with various examples:
+
+```python
+print(is_palindrome("A man, a plan, a canal: Panama"))  # True
+print(is_palindrome("hello world"))                   # False
+print(is_palindrome("A Santa at NASA"))                # True
+```
 ===
 
 
 ## Prompt 2
 > Prompt: Create a simple HTML webpage with a title and a paragraph of text.
-(Response time: 19.72 seconds)
-(CPU Usage: 7.5%, Memory Used: 15539.66 MB / 16088.46 MB (96.6%))
+(Response time: 16.9 seconds)
+(CPU Usage: 1.8%, Memory Used: 13759.22 MB / 16088.46 MB (85.5%))
 >>> MODEL OUTPUT:
 ```html
 
-Simple Webpage
+Title of the Webpage
+=====================
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Simple Webpage</title>
-</head>
-<body>
-    <h1>Welcome to My Simple Webpage!</h1>
-    <p>This is a simple HTML webpage created for demonstration purposes.</p>
-</body>
-</html>
+Welcome to my simple webpage!
+This is a basic example of an HTML document. Here we have a title for the webpage and a paragraph element containing some text. The title tag sets the title of the document, which is displayed in the browser's title bar or tab. The body element contains all the content that will be visible to the user. The h1 tag defines a heading, and the p tag defines a paragraph.
+
 ```
 
-Copy and paste this code into an HTML file, save it, and open it in any modern web browser to see the result.
+Save this code in a file with a .html extension (e.g., `index.html`) and open it using any web browser to see your simple webpage in action!
 ===
 
 
 ## Prompt 3
 > Prompt: Write a SQL query to select all customers from a table called `customers` who made purchases over $500 in the last month.
-(Response time: 23.39 seconds)
-(CPU Usage: 7.9%, Memory Used: 15597.78 MB / 16088.46 MB (97.0%))
+(Response time: 23.59 seconds)
+(CPU Usage: 2.3%, Memory Used: 13821.03 MB / 16088.46 MB (85.9%))
 >>> MODEL OUTPUT:
-To achieve this, we'll make use of `JOIN`, `WHERE`, and date functions in SQL. Here is an example of how you could structure your SQL query:
+To write this SQL query, I'll assume that there is another table called `transactions` where we can join `customers` to get purchase details. Here's an example of how you might structure the query:
 
 ```sql
-SELECT c.customer_id, c.name, c.email
+SELECT c.*
 FROM customers AS c
-JOIN purchases AS p ON c.customer_id = p.customer_id
-WHERE p.purchase_date >= DATE(NOW()) - INTERVAL 1 MONTH
-AND p.amount > 500;
+JOIN transactions AS t ON c.customer_id = t.customer_id
+WHERE t.transaction_date >= DATE(NOW()) - INTERVAL 1 MONTH
+AND t.amount > 500;
 ```
 
-This query selects the `customer_id`, `name`, and `email` columns from the `customers` table and uses a join with the purchases table to filter only those customers who made a purchase over $500 in the last month.
+This query selects all columns from the `customers` table (denoted by `c.*`) and filters for rows where the associated transaction in the last month had an amount greater than $500. The join condition (`ON c.customer_id = t.customer_id`) ensures that we get the corresponding customer details only when there is a matching transaction record in the `transactions` table.
 ===

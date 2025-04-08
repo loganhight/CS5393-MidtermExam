@@ -40,7 +40,7 @@ def process_basic_tasks(model: str):
 
         os.makedirs(os.path.dirname(output_file), exist_ok=True)
 
-        with open(prompt_file, "r") as f_in, open(output_file, "w") as f_out:
+        with open(prompt_file, "r", encoding="utf-8") as f_in, open(output_file, "w", encoding="utf-8") as f_out:
             f_out.write(f"=== TASK: {task.upper()} for {model} ===\n")
             lines = f_in.readlines()
 
@@ -67,7 +67,7 @@ def process_focused_experimentation(model: str):
 
     os.makedirs(os.path.dirname(output_file), exist_ok=True)
 
-    with open(prompt_file, "r") as f_in, open(output_file, "w") as f_out:
+    with open(prompt_file, "r", encoding="utf-8") as f_in, open(output_file, "w", encoding="utf-8") as f_out:
         lines = f_in.readlines()
 
         current_prompt = None

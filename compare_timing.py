@@ -7,7 +7,8 @@ tasks = ["question_answering", "summarization", "code_generation", "creative_wri
 
 def extract_timings(model, task_file):
     times = []
-    with open(task_file, "r") as f:
+    
+    with open(task_file, "r", encoding="utf-8") as f:
         for line in f:
             match = re.search(r"Response time: (\d+\.?\d*) seconds", line)
             if match:

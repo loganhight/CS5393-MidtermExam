@@ -3,68 +3,69 @@
 
 ## Prompt 1
 > Prompt: Write a Python function to check if a string is a palindrome.
-(Response time: 29.12 seconds)
-(CPU Usage: 8.9%, Memory Used: 11685.64 MB / 16088.46 MB (72.6%))
+(Response time: 26.69 seconds)
+(CPU Usage: 3.7%, Memory Used: 13791.66 MB / 16088.46 MB (85.7%))
 >>> MODEL OUTPUT:
 ```
-def is_palindrome(s: str) -> bool:
+def is_palindrome(str):
     """
-    Return True if the input string is a palindrome, False otherwise.
-
-    A palindrome is a string that reads the same backward as forward.
+    Returns True if the given string is a palindrome, False otherwise.
     """
-    return s == s[::-1]
+    return str == str[::-1]
 ```
 Explanation:
 
-* The `s` parameter is a string to be checked for being a palindrome.
-* We use the slicing notation `[::-1]` to get the reverse of the string, starting from the end and moving backwards to the beginning.
-* We then compare `s` with its reverse using the `==` operator. If they are equal, the string is a palindrome.
+* The function takes a single argument `str`, which is the string to be checked.
+* We use the slicing notation `[::-1]` to get the characters of the string in reverse order.
+* We then compare the original string with the reversed string using the `==` operator.
+* If the strings are equal, the function returns `True`, otherwise it returns `False`.
 
-Example usage:
+Here's an example usage of the function:
 ```
 >>> is_palindrome("racecar")
 True
->>> is_palindrome("not a palindrome")
+>>> is_palindrome("hello")
 False
 ```
+Note that this function will only work for strings of length greater than 1. For shorter strings, the comparison will always return `False`.
 ===
 
 
 ## Prompt 2
 > Prompt: Create a simple HTML webpage with a title and a paragraph of text.
-(Response time: 11.98 seconds)
-(CPU Usage: 13.8%, Memory Used: 11659.46 MB / 16088.46 MB (72.5%))
+(Response time: 12.33 seconds)
+(CPU Usage: 4.0%, Memory Used: 13762.19 MB / 16088.46 MB (85.5%))
 >>> MODEL OUTPUT:
 <!DOCTYPE html>
 <html>
 <head>
- <title>My First HTML Page</title>
+ <title>My Simple Webpage</title>
 </head>
 <body>
- <p>This is my first HTML page.</p>
+ <p>This is my first web page.</p>
 </body>
 </html>
 
-Note: This is a very basic HTML structure, you can add more elements and styles to make it more interesting.
+Note: This is a very basic HTML structure, and there are many things you can add to make it more complex and functional, such as images, links, forms, tables, etc.
 ===
 
 
 ## Prompt 3
 > Prompt: Write a SQL query to select all customers from a table called `customers` who made purchases over $500 in the last month.
-(Response time: 24.61 seconds)
-(CPU Usage: 14.5%, Memory Used: 11649.24 MB / 16088.46 MB (72.4%))
+(Response time: 29.86 seconds)
+(CPU Usage: 5.8%, Memory Used: 13767.53 MB / 16088.46 MB (85.6%))
 >>> MODEL OUTPUT:
 ```
 SELECT * 
 FROM customers 
-WHERE transactions > 500;
+WHERE total_purchase > 500 AND date_purchased > DATE_SUB(CURRENT_DATE, INTERVAL 1 MONTH);
 ```
 Explanation:
 
-* `SELECT`: selects all columns (`*`) from the `customers` table.
-* `FROM`: specifies the table to query, in this case `customers`.
-* `WHERE`: filters the results to only include customers who made purchases over $500 in the last month. The `>` operator is used to compare the value of the `transactions` column to 500.
+* `SELECT *` selects all columns from the `customers` table.
+* `FROM customers` specifies the table to query.
+* `WHERE total_purchase > 500` filters the results to only include customers who made purchases over $500.
+* `AND date_purchased > DATE_SUB(CURRENT_DATE, INTERVAL 1 MONTH)` filters the results further to only include customers who made purchases in the last month. `DATE_SUB` subtracts one month from the current date.
 
-Note: This assumes that the `transactions` column contains the total amount spent by each customer. If the `transactions` column contains the date of the purchase, you may need to use a different comparison operator (e.g. `>=` instead of `>`).
+Note: This assumes that the `total_purchase` column is a sum of all the products purchased by each customer, and the `date_purchased` column is the date when the purchase was made. If your table has different columns or formatting, you may need to adjust the query accordingly.
 ===

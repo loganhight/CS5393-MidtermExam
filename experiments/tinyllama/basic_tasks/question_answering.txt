@@ -3,47 +3,46 @@
 
 ## Prompt 1
 > Prompt: What are the main causes of climate change?
-(Response time: 3.29 seconds)
-(CPU Usage: 17.7%, Memory Used: 12543.36 MB / 16088.46 MB (78.0%))
+(Response time: 7.4 seconds)
+(CPU Usage: 5.3%, Memory Used: 12487.22 MB / 16088.46 MB (77.6%))
 >>> MODEL OUTPUT:
-Climate change is caused by several main factors, including:
-1. Greenhouse gas emissions from human activities such as burning fossil fuels and deforestation.
-2. Changes in the Earth's orbit, tilt, and rotation caused by orbital mechanics.
-3. Human activities that modify the atmosphere by adding or removing gases, primarily carbon dioxide (CO2) and methane (CH4).
-4. Oceanic processes, particularly changes in sea level and ocean heat content, which can impact coastal areas and ecosystems.
-5. Natural causes, such as volcanic eruptions and solar activity, that can contribute to climate change by releasing gases into the atmosphere.
-6. Human activities that modify land-use practices (e.g., deforestation or agricultural land conversion) and changes in crops or crop yields that can impact food production.
-7. Changes in precipitation patterns and weather patterns due to the Earth's orbit, which affect the amount of energy received by the atmosphere.
+Climate change is caused by several factors, including:
+
+1. The accumulation of greenhouse gases (GHGs) in the atmosphere, primarily from human activities such as burning fossil fuels and deforestation. This releases carbon dioxide (CO2), methane (CH4), nitrous oxide (N2O), and other GHGs into the air.
+
+2. The extraction, transportation, and combustion of fossil fuels, leading to the emissions of CO2 and other GHGs. This contributes to global warming, which leads to climate change.
+
+3. The loss of vegetation, forests, and wetlands as a result of deforestation, farmland degradation, and water resource depletion, leading to increased carbon dioxide and methane emissions.
+
+4. An increase in demand for energy, including electricity generation and heating and cooling, which causes the release of greenhouse gases into the atmosphere.
+
+5. The destruction of oceans and other water bodies, as a result of pollution and overfishing, leading to the depletion of marine life and increased ocean heat content, which drives climate change.
+
+6. Agricultural practices, such as crop selection, pest control, and soil management, that have an impact on land use, which also influences carbon storage in soils and vegetation.
+
+Overall, these factors contribute to the global increase in greenhouse gas concentrations and the planet's response to climate change.
 ===
 
 
 ## Prompt 2
 > Prompt: Who wrote the play "Hamlet" and what is its central theme?
-(Response time: 2.21 seconds)
-(CPU Usage: 23.5%, Memory Used: 12656.43 MB / 16088.46 MB (78.7%))
+(Response time: 1.44 seconds)
+(CPU Usage: 2.2%, Memory Used: 12473.57 MB / 16088.46 MB (77.5%))
 >>> MODEL OUTPUT:
-The play "HaMLet" is written by Algerian novelist, film director, and screenwriter Jean-Claude Brulé. Its central theme revolves around the protagonist, Jean Moulin, who led a group of French resistance fighters in resisting Nazi occupation during World War II. The play depicts the struggles and sacrifices of these French heroes, who fought for their country's freedom and dignity against an overwhelming enemy force.
-
-The play is set during the Second World War and explores themes such as friendship, loyalty, sacrifice, and patriotism. It portrays a group of courageous individuals whose bravery in the face of danger inspired and motivated their fellow countrymen to stand up against oppression and injustice.
-
-Overall, "HaMLet" is an important piece of literature that provides a gripping account of the French resistance during a critical time in history when many people were fighting for freedom and justice.
+"Hamlet" (1976) is a drama written by Danish author Jens Christensen, who also directed it. The play explores the themes of power, loyalty, and betrayal in a small, conservative Danish town where everyone seems to have their own agenda. Through the story of the main character, played by actor Per KjÃ¸lgaard, we witness the corrupting influence of power on individuals, and how they often make unwise decisions based on their own desires rather than what is best for the greater good. The central theme of the play is a critique of societal norms that impede progress and innovation in favor of maintaining the status quo.
 ===
 
 
 ## Prompt 3
 > Prompt: Explain the theory of general relativity in simple terms.
-(Response time: 4.52 seconds)
-(CPU Usage: 5.5%, Memory Used: 12528.48 MB / 16088.46 MB (77.9%))
+(Response time: 3.02 seconds)
+(CPU Usage: 2.4%, Memory Used: 12665.64 MB / 16088.46 MB (78.7%))
 >>> MODEL OUTPUT:
-General relativity is a theoretical framework that explains how gravity behaves in different situations, including the way objects move through space-time. Here's a simplified explanation of the theory:
+In physics, general relativity is a theoretical framework that describes how gravity and spacetime interact. It's based on the idea that all objects in the universe are affected by gravity, but not every object experiences it in exactly the same way. The theory proposes that gravity is not just a force acting between objects, but a curvature of spacetime itself (which includes other forms of energy, such as electromagnetic fields).
 
-In general relativity, gravity is based on the idea that the curvature (or shape) of spacetime itself affects the way matter moves around it. Unlike classical physics which assumed that objects moved in straight lines, this new theory suggests that space and time are both curved, or warped, by gravity.
+The theory is based on a fundamental principle called Einstein's theory of general relativity (also known as the theory of special relativity), which states that the laws of physics are the same regardless of the observer or the motion of the object. General relativity extends this to include not just the laws of physics but also how gravity and spacetime interact with each other.
 
-To understand how general relativity explains gravity, you need to start with the concept of curvature. Curvature is the degree of distortion or deformation of spacetime around an object, depending on its position and distance from the observer. So, if a ball falls towards the Earth, its gravitational force pulls its mass inwards towards the center of the Earth, creating a curved path for it to follow through space-time.
+In simpler terms, the theory says that the behavior of objects in the universe is shaped by the curvature of spacetime, which in turn affects how matter interacts with each other and with the fabric of space-time itself. The curvature of spacetime can be affected by the mass and energy density of an object (its gravitational field), as well as by the presence of other forms of energy (such as electromagnetic fields) that are also affected by the curvature.
 
-In general relativity, gravity is explained by the curvature of spacetime itself, which causes objects to move differently from the way they would under classical physics. For example, suppose a ball falls towards the ground and hits an object that is not massive enough to cause its own gravitational pull. Then, as gravity works on the surface of the Earth, it causes the ball's trajectory to curve around it, making it move at a different speed than if it hit the ground with no gravity involved.
-
-So far, so simple - but in general relativity, there are several curvature formulas that describe the way gravity behaves. These include the "G" or gravitational constant (which is about 6.67*10-34 Joules per kg*m**2), the Einstein tensor (which measures the curvature of spacetime around a single point, as well as the curvature at larger distances), and the time dilation formula (the idea that moving slower in space-time causes objects to move faster in time-space).
-
-In summary: general relativity explains how gravity affects objects through the curvature of spacetime itself. It's a complex theory, but by understanding its principles and formulas, we can better understand how the world around us behaves.
+This is a complex theory with many implications for our understanding of the universe, but it has been successfully tested in numerous experiments and observations that have led to significant advances in scientific knowledge.
 ===

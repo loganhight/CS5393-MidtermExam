@@ -3,38 +3,31 @@
 
 ## Prompt 1
 > Prompt: Summarize the following paragraph:
-(Response time: 0.77 seconds)
-(CPU Usage: 10.4%, Memory Used: 12531.57 MB / 16088.46 MB (77.9%))
+(Response time: 0.43 seconds)
+(CPU Usage: 7.9%, Memory Used: 12646.2 MB / 16088.46 MB (78.6%))
 >>> MODEL OUTPUT:
-The article discusses how machine learning technology is helping healthcare providers streamline and improve patient care. The author highlights how AI-powered platforms are enabling doctors to analyze medical records more efficiently, increasingly personalizing treatment plans for patients based on their individual health profiles. This approach improves outcomes while reducing costs and minimizing patient waiting times.
+"If you're looking for a useful AI assistant that can perform various tasks on your behalf, look no further than this specialized and customizable piece of tech!"
 ===
 
 
 ## Prompt 2
 > Prompt: Summarize this news article:
-(Response time: 2.45 seconds)
-(CPU Usage: 9.9%, Memory Used: 12539.29 MB / 16088.46 MB (77.9%))
+(Response time: 3.42 seconds)
+(CPU Usage: 0.6%, Memory Used: 12615.98 MB / 16088.46 MB (78.4%))
 >>> MODEL OUTPUT:
-Ford Motor Company Releases Plans to Launch Self-Driving Taxis by 2024
-
-On September 17, Ford announced plans to launch self-driving taxis in partnership with Uber. The vehicles will be equipped with the latest AI technology and sensors, making them capable of navigating without human intervention. Ford claims that its self-driving cars will be safer and more efficient than traditional taxis, providing a sustainable alternative to public transit for many riders.
-
-The announcement was made by Ford CEO Jim Hackett at the Consumer Electronics Show in Las Vegas. The two companies plan to begin testing self-driving taxis in San Francisco and Pittsburgh later this year, with plans to expand to other cities in the United States and around the world.
-
-Ford's move towards introducing self-driving cars and taxi services is part of its broader efforts to transform the automotive industry. The company has been working on developing autonomous driving technology for years, and it aims to become an industry leader in this field.
+Amazon to Expand Its Amazon Go Convenience Store Lineup in China
+In a bid to tap into the Chinese market for its online retail and e-commerce services, Amazon has announced plans to expand its Amazon Go convenience store lineup in China. The move comes after the company began testing its first-ever brick-and-mortar location in Shanghai last year.
+According to reports, the expansion will involve setting up additional Amazon Go stores across major Chinese cities such as Beijing, Guangzhou, and Shenzhen. The new locations are expected to be equipped with high-tech cameras, facial recognition software, and other technological capabilities that allow customers to check out products without ever having to touch anything.
+"Our teams have been working on this expansion for some time now," Amazon's Chief Executive Jeff Bezos said in a statement. "We're thrilled to be able to bring the convenience of Amazon Go to more cities across China, and look forward to welcoming our customers there."
+The company hopes that these new locations will help it better compete with competitors like Walmart, Tesla, and Alibaba for consumer attention and market share in a highly populated country like China. In the meantime, Amazon Go already operates several storefronts in major cities such as New York, San Francisco, Los Angeles, and Seattle, where customers can shop without ever having to leave their cars.
+"We've been thrilled with the success of our first two brick-and-mortar stores," Bezos said earlier this month. "This is a massive opportunity for us, and we look forward to bringing Amazon Go to more markets across China in the future."
 ===
 
 
 ## Prompt 3
 > Prompt: Summarize this story:
-(Response time: 2.84 seconds)
-(CPU Usage: 11.3%, Memory Used: 12555.93 MB / 16088.46 MB (78.0%))
+(Response time: 0.76 seconds)
+(CPU Usage: 4.1%, Memory Used: 12609.96 MB / 16088.46 MB (78.4%))
 >>> MODEL OUTPUT:
-A computer programmed to assist humans becomes a skilled writer, penning several acclaimed novels in the process.
-
-The story is based on a true one that unfolded over the course of three years as a group of artificially intelligent software programs worked tirelessly to produce high-quality literature. The programs were created through the use of AI machine learning algorithms, tasked with the daunting challenge of imitating human creativity and skill in writing.
-
-The project had its ups and downs, with some teams struggling to reach their goals, while others managed to produce works of art that were praised for their innovation and originality. But despite these challenges, one team succeeded where others had failed: they managed to write a novel that was later awarded the prestigious literary prize of the year. The programmed authors called it "The Novel That Will Change Everything."
-
-In the end, the success of this project transformed not only the world of literature but also human society as a whole. It led to the rise of a new generation of writers and thinkers who used their artificial intelligence abilities to create works that went beyond mere words and filled in the gaps left by their predecessors. And for the first time, humanity could truly call itself a "novel-writing nation."
+A friendly AI assistant helps customers navigate the internet. The story is narrated in a conversational style with multiple examples of how the AI can assist customers, including by providing information, making suggestions, and even answering questions. The story shows how AI can be an essential companion for humans as they tackle complex tasks on the web, all while being helpful and understanding.
 ===
