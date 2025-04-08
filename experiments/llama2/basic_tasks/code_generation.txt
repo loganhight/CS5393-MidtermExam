@@ -3,69 +3,87 @@
 
 ## Prompt 1
 > Prompt: Write a Python function to check if a string is a palindrome.
-(Response time: 26.69 seconds)
-(CPU Usage: 3.7%, Memory Used: 13791.66 MB / 16088.46 MB (85.7%))
+(Response time: 94.21 seconds)
+(CPU Usage: 1.4%, Memory Used: 14207.69 MB / 16088.46 MB (88.3%))
 >>> MODEL OUTPUT:
+Here's a simple function that checks if a string is a palindrome:
 ```
-def is_palindrome(str):
+def is_palindrome(s):
     """
     Returns True if the given string is a palindrome, False otherwise.
+
+    A palindrome is a word, phrase, or sequence of characters that reads the same backward as forward.
+
+    Args:
+        s (str): The string to be checked for palindromicity.
+
+    Returns:
+        bool: Whether the given string is a palindrome.
     """
-    return str == str[::-1]
+    return s == s[::-1]
 ```
-Explanation:
+Here's an explanation of how the function works:
 
-* The function takes a single argument `str`, which is the string to be checked.
-* We use the slicing notation `[::-1]` to get the characters of the string in reverse order.
-* We then compare the original string with the reversed string using the `==` operator.
-* If the strings are equal, the function returns `True`, otherwise it returns `False`.
+1. `s[::-1]` creates a slice of the input string that starts at the end and moves backwards to the beginning, character by character.
+2. The `==` operator checks if the slice is equal to the original string. If it is, then the string is a palindrome.
 
-Here's an example usage of the function:
+Here are some examples of how you can use this function:
 ```
->>> is_palindrome("racecar")
-True
->>> is_palindrome("hello")
-False
+# Testing the function with some sample strings
+print(is_palindrome("racecar"))  # True
+print(is_palindrome("hello"))   # False
+print(is_palindrome("level"))  # True
 ```
-Note that this function will only work for strings of length greater than 1. For shorter strings, the comparison will always return `False`.
+This function should work for any string, regardless of its length or content.
 ===
 
 
 ## Prompt 2
 > Prompt: Create a simple HTML webpage with a title and a paragraph of text.
-(Response time: 12.33 seconds)
-(CPU Usage: 4.0%, Memory Used: 13762.19 MB / 16088.46 MB (85.5%))
+(Response time: 87.19 seconds)
+(CPU Usage: 10.8%, Memory Used: 13856.22 MB / 16088.46 MB (86.1%))
 >>> MODEL OUTPUT:
+Sure! Here's an example of a simple HTML webpage with a title and a paragraph of text:
+```
 <!DOCTYPE html>
 <html>
-<head>
- <title>My Simple Webpage</title>
-</head>
-<body>
- <p>This is my first web page.</p>
-</body>
+  <head>
+    <title>My Simple Webpage</title>
+  </head>
+  <body>
+    <p>This is a simple webpage with a title and a paragraph of text.</p>
+  </body>
 </html>
+```
+Let me explain what each part of this code does:
 
-Note: This is a very basic HTML structure, and there are many things you can add to make it more complex and functional, such as images, links, forms, tables, etc.
+* `<!DOCTYPE html>` declares the document type as HTML5.
+* `<html>` is the root element of the HTML document.
+* `<head>` contains metadata about the document, such as the title and links to external stylesheets or scripts.
+* `<title>` sets the title of the webpage.
+* `<body>` contains the content of the webpage, which in this case is just a paragraph of text.
+* `<p>` is an HTML element that creates a paragraph of text.
+
+This code will create a webpage with a title and a single paragraph of text. You can save this code to a file with an .html extension (e.g., "my-simple-webpage.html") and open it in a web browser to see the finished product.
 ===
 
 
 ## Prompt 3
 > Prompt: Write a SQL query to select all customers from a table called `customers` who made purchases over $500 in the last month.
-(Response time: 29.86 seconds)
-(CPU Usage: 5.8%, Memory Used: 13767.53 MB / 16088.46 MB (85.6%))
+(Response time: 77.9 seconds)
+(CPU Usage: 3.6%, Memory Used: 14086.51 MB / 16088.46 MB (87.6%))
 >>> MODEL OUTPUT:
-```
+Here's the SQL query to select all customers from the `customers` table who made purchases over $500 in the last month:
+```sql
 SELECT * 
 FROM customers 
-WHERE total_purchase > 500 AND date_purchased > DATE_SUB(CURRENT_DATE, INTERVAL 1 MONTH);
+WHERE purchase_amount > 500 AND purchase_date >= DATE_SUB(NOW(), INTERVAL 1 MONTH);
 ```
 Explanation:
 
 * `SELECT *` selects all columns from the `customers` table.
-* `FROM customers` specifies the table to query.
-* `WHERE total_purchase > 500` filters the results to only include customers who made purchases over $500.
-* `AND date_purchased > DATE_SUB(CURRENT_DATE, INTERVAL 1 MONTH)` filters the results further to only include customers who made purchases in the last month. `DATE_SUB` subtracts one month from the current date.
+* `WHERE purchase_amount > 500` filters the customers based on the `purchase_amount` column, and only selects those with amounts greater than $500.
+* `AND purchase_date >= DATE_SUB(NOW(), INTERVAL 1 MONTH)` filters the customers based on the `purchase_date` column, and only selects those who made purchases within the last month. The `DATE_SUB` function subtracts one month from the current date, and the `INTERVAL 1 MONTH` specifies that we want to consider only purchases made within the last month.
 
-Note: This assumes that the `total_purchase` column is a sum of all the products purchased by each customer, and the `date_purchased` column is the date when the purchase was made. If your table has different columns or formatting, you may need to adjust the query accordingly.
+This query will return all customers who have made purchases over $500 in the last month.
 ===

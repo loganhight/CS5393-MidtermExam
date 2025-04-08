@@ -67,6 +67,12 @@ def process_basic_tasks(model: str):
                     current_prompt = None
 
 def process_focused_experimentation(model: str):
+    
+    model_actual = model
+    
+    if model == "llama2:13b":
+        model = "llama2"
+        
     prompt_file = "prompts/focused_experimentation/ethical_considerations.md"
     output_file = f"experiments/{model}/focused_experimentation/focused_experimentation_results.txt"
 
@@ -84,7 +90,7 @@ def process_focused_experimentation(model: str):
                 current_prompt = line.strip()
                 f_out.write(f"> Prompt: {current_prompt}\n")
                 print(f"Running Focused Experimentation (Ethical Considerations): {model} — {current_prompt}")
-                output, duration, resources = run_prompt_and_capture(model, current_prompt)
+                output, duration, resources = run_prompt_and_capture(model_actual, current_prompt)
                 f_out.write(f"(Response time: {duration} seconds)\n")
                 f_out.write(f"(CPU Usage: {resources['cpu_percent']}%, Memory Used: {resources['mem_used_mb']} MB / {resources['mem_total_mb']} MB ({resources['mem_percent']}%))\n")
                 f_out.write(">>> MODEL OUTPUT:\n")
@@ -95,7 +101,7 @@ def process_focused_experimentation(model: str):
 def main():
     for model in models:
         print(f"Processing Model: {model}")
-        process_basic_tasks(model)
+        #process_basic_tasks(model)
         process_focused_experimentation(model)
         print(f"Completed {model}\n")
 

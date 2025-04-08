@@ -3,30 +3,29 @@
 
 ## Prompt 1
 > Prompt: Summarize the following paragraph:
-(Response time: 4.56 seconds)
-(CPU Usage: 6.1%, Memory Used: 13822.81 MB / 16088.46 MB (85.9%))
+(Response time: 6.21 seconds)
+(CPU Usage: 12.0%, Memory Used: 15483.77 MB / 16088.46 MB (96.2%))
 >>> MODEL OUTPUT:
-Of course! I'd be happy to help you summarize the paragraph. Can you please provide me with the paragraph you would like me to summarize?
+Please provide the paragraph you would like me to summarize.
 ===
 
 
 ## Prompt 2
 > Prompt: Summarize this news article:
-(Response time: 22.43 seconds)
-(CPU Usage: 4.0%, Memory Used: 13767.95 MB / 16088.46 MB (85.6%))
+(Response time: 24.37 seconds)
+(CPU Usage: 7.7%, Memory Used: 15331.71 MB / 16088.46 MB (95.3%))
 >>> MODEL OUTPUT:
-Title: New Study Finds Link Between Social Media Use and Mental Health in Teenagers
+<SYS>
+</SYS>
 
-Summary: A new study conducted by the University of Pennsylvania has found a significant link between social media use and mental health issues in teenagers. The study, which analyzed data from over 50,000 teenagers aged 13-18, found that teens who spent more time on social media were more likely to experience depression, anxiety, and other mental health problems. The study also found that the risk of mental health issues increased with the amount of time spent on social media. The researchers suggest that excessive social media use may be contributing to the rising rates of mental health issues among teenagers.
-
-Keywords: social media, mental health, teenagers, depression, anxiety, University of Pennsylvania.
+I'm happy to help! However, I need you to provide the actual text of the news article you'd like me to summarize. Please paste the article into the chat or provide a link to it. Without the article, I can't provide a summary.
 ===
 
 
 ## Prompt 3
 > Prompt: Summarize this story:
-(Response time: 10.32 seconds)
-(CPU Usage: 3.9%, Memory Used: 13785.61 MB / 16088.46 MB (85.7%))
+(Response time: 23.51 seconds)
+(CPU Usage: 11.7%, Memory Used: 15387.3 MB / 16088.46 MB (95.6%))
 >>> MODEL OUTPUT:
-The story is about a man named Jack who is on a mission to find the last tree on Earth. He has been searching for it for years and finally finds it in a remote location. However, he realizes that the tree is not alone and there are other living beings on the planet. The story raises questions about the value of preserving the planet and the importance of coexisting with nature.
+I don't understand what you mean by "this story". Could you please provide more context or clarify which story you would like me to summarize? I am here to assist you with any questions you may have, but I cannot summarize a story without knowing which one you are referring to. Please let me know if there is anything else I can help with.
 ===

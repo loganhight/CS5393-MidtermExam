@@ -1,0 +1,44 @@
+=== TASK: QUESTION_ANSWERING for llama2 ===
+
+
+## Prompt 1
+> Prompt: What are the main causes of climate change?
+(Response time: 600.02 seconds)
+(CPU Usage: 25.2%, Memory Used: 15003.46 MB / 16088.46 MB (93.3%))
+>>> MODEL OUTPUT:
+[ERROR] Model response timed out.
+===
+
+
+## Prompt 2
+> Prompt: Who wrote the play "Hamlet" and what is its central theme?
+(Response time: 82.22 seconds)
+(CPU Usage: 6.1%, Memory Used: 15190.93 MB / 16088.46 MB (94.4%))
+>>> MODEL OUTPUT:
+The play "Hamlet" was written by William Shakespeare, a renowned English playwright and poet. The central theme of the play is the exploration of human nature, specifically the complexities of revenge, madness, and mortality.
+
+The story revolves around Prince Hamlet, who seeks to avenge his father's murder by his uncle Claudius, who has taken the throne and married Hamlet's mother, Queen Gertrude. Throughout the play, Hamlet grapples with his own sanity and morality as he navigates a web of deceit and betrayal.
+
+The theme of revenge is central to the play, as Hamlet struggles with his desire for vengeance against Claudius, while also questioning the morality of taking a life. The play also explores the theme of madness, as Hamlet's own mental state deteriorates throughout the story.
+
+Ultimately, "Hamlet" is a tragic tale that delves into the human experience and the consequences of our actions, leaving the audience with a profound understanding of the complexities of life and death.
+===
+
+
+## Prompt 3
+> Prompt: Explain the theory of general relativity in simple terms.
+(Response time: 143.18 seconds)
+(CPU Usage: 12.5%, Memory Used: 15329.46 MB / 16088.46 MB (95.3%))
+>>> MODEL OUTPUT:
+Sure, I'd be happy to explain the theory of general relativity in simple terms!
+
+General relativity is a scientific theory proposed by Albert Einstein that describes how gravity works. According to this theory, gravity is not a force that pulls objects towards each other, but rather a curvature of spacetime caused by the presence of mass and energy.
+
+Imagine spacetime as a fabric that stretches and bends around massive objects like planets and stars. The more massive the object, the more it warps the spacetime around it, creating a gravitational field. Other objects with less mass will then follow the curvature of spacetime, which means they will move along a curved path around the massive object. This is what we experience as gravity.
+
+Here's an analogy to help you visualize this: imagine spacetime as a rubber sheet. If you place a heavy object like a bowling ball on the sheet, it will create a dent in the surface. The more massive the object, the deeper the dent. Now, if you place a smaller object like a marble on the surface near the bowling ball, it will follow the curvature of the surface and roll towards the bowling ball. This is similar to how objects move under the influence of gravity in spacetime.
+
+Another important aspect of general relativity is the concept of gravitational waves. These are ripples in spacetime that are caused by the movement of massive objects, such as black holes or neutron stars. Imagine spacetime as a still pond, and the movement of these objects as a stone thrown into the pond. The ripples that spread out from the point where the stone was thrown are similar to gravitational waves.
+
+In summary, general relativity is a theory that explains how gravity works by describing how mass and energy warp spacetime, creating a curvature that governs the motion of objects. It also predicts the existence of gravitational waves, which are ripples in spacetime caused by the movement of massive objects.
+===
