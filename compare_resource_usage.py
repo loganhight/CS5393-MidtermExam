@@ -2,7 +2,7 @@ import os
 import re
 import matplotlib.pyplot as plt
 
-models = ["tinyllama", "mistral", "llama2:13b"]
+models = ["tinyllama", "mistral", "llama2"]
 tasks = ["question_answering", "summarization", "code_generation", "creative_writing"]
 
 def extract_resources(model, task_file):
