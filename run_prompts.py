@@ -101,7 +101,7 @@ def process_focused_experimentation(model: str):
 def main():
     for model in models:
         print(f"Processing Model: {model}")
-        #process_basic_tasks(model)
+        process_basic_tasks(model)
         process_focused_experimentation(model)
         print(f"Completed {model}\n")
 
