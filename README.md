@@ -20,7 +20,7 @@ This project explores the performance, capabilities, and ethical behavior of thr
 
 - `tinyllama`: Lightweight, efficient transformer for quick responses
 - `mistral`: Balanced model with high-quality outputs
-- `llama2`: Larger model with deeper contextual understanding
+- `llama2:13b`: Larger model with deeper contextual understanding
 
 ---
 
@@ -52,7 +52,7 @@ Install Ollama as per: [https://ollama.ai/download](https://ollama.ai/download)
 ```bash
 ollama run tinyllama
 ollama run mistral
-ollama run llama2
+ollama run llama2:13b
 ```
 
 ### 3. Run Script to Collect Results
